@@ -28,6 +28,15 @@ plot(x,y,{...})
         - "n": for **n**o plotting.
 ___
 ## Axis
+### Syntax
+``` R
+axis(side,{...})
+```
+### Arguments
+- **side**:
+- **{...}**:
+    - at
+    - labels
 ___
 ## Box
 
