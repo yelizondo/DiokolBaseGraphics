@@ -3,6 +3,7 @@ ___
 ## Par function
 ___
 ## Plot function
+### Description
 
 ### Syntax
 ``` R
@@ -28,15 +29,16 @@ plot(x,y,{...})
         - "n": for **n**o plotting.
 ___
 ## Axis
+### Description
 ### Syntax
 ``` R
 axis(side,{...})
 ```
 ### Arguments
-- **side**:
+- **side**: Indicates wich side of the plot is the axis going to be drawn. It's an integer. 1 = RIGHT, 2 = LEFT, 3 = TOP and  4 = RIGHT.
 - **{...}**:
-    - at
-    - labels
+    - **at:** The points at which the tick-marks are going to be drawn.
+    - **labels:** Labels to be placed in the tick points.
 ___
 ## Box
 
