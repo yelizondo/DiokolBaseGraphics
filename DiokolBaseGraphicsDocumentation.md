@@ -1,6 +1,13 @@
 # Diokol Data Visualization Library
 ___
 ## Par function
+### Description
+### Syntax
+``` R
+par({...})
+```
+### Arguments
+Me parece que la mayoria de cosas estan hardcodeadas, preguntar al profe
 ___
 ## Plot function
 ### Description
