@@ -4,7 +4,6 @@ ___
 ___
 ## Plot function
 ### Description
-
 ### Syntax
 ``` R
 plot(x,y,{...})
@@ -22,11 +21,7 @@ plot(x,y,{...})
         - "p": for a **p**oint plot.
         - "l": for a **l**ine plot.
         - "b": for a **b**oth, point and line plot.
-        - "c": for the lines part alone of "b". ???
-        - "o": for both"**o**verplotted" ???
-        - "h": for a **h**istogram.
-        - "s": for a **s**tepline plot.
-        - "n": for **n**o plotting.
+        - "o": for both"**o**verplotted" 
 ___
 ## Axis
 ### Description
@@ -40,7 +35,16 @@ axis(side,{...})
     - **at:** The points at which the tick-marks are going to be drawn.
     - **labels:** Labels to be placed in the tick points.
 ___
+## Title
+
+___
 ## Box
+
+___
+## Text
+
+___
+## Indetify
 
 ___
 
