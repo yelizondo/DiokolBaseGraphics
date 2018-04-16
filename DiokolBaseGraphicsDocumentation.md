@@ -1,7 +1,7 @@
 # Diokol Data Visualization Library
 ___
 ## Par function
-### Description
+Description
 ### Syntax
 ``` R
 par({...})
@@ -10,7 +10,7 @@ par({...})
 Me parece que la mayoria de cosas estan hardcodeadas, preguntar al profe
 ___
 ## Plot function
-### Description
+Description
 ### Syntax
 ``` R
 plot(x,y,{...})
@@ -31,7 +31,7 @@ plot(x,y,{...})
         - "o": for both"**o**verplotted" 
 ___
 ## Axis
-### Description
+Description
 ### Syntax
 ``` R
 axis(side,{...})
@@ -43,7 +43,7 @@ axis(side,{...})
     - **labels:** Labels to be placed in the tick points.
 ___
 ## Title
-### Description
+Description
 ### Syntax
 ``` R
 title({...})
@@ -56,10 +56,18 @@ title({...})
     - **ylab:** Label for the Y axis
 ___
 ## Box
-
+This function draws a box around the current plot.
+### Syntax
+``` R
+box({...})
+```
+### Arguments
+- **{...}**: The arguments to be passed to the methods.
+    - **which:** String, one of "plot", "figure". Default is "plot"
+    - **bty:** A string which determines the type of box to be drawn. Default is "o". "n" suppresses the box.
 ___
 ## Text
-### Description
+Description
 ### Syntax
 ``` R
 text(x,y,labels,{...})
@@ -74,7 +82,17 @@ text(x,y,labels,{...})
     - **offset:** Indicates the offset of the label from the specified *pos* coordinate or it's default value. The default value is 1.
 ___
 ## Indetify
-
+Reads the position of the graphics pointer when the mouse button is pressed. 
+### Syntax
+``` R
+indetify(x,y,{...})
+```
+### Arguments
+- **x,y:** Corrdinates in the plot.
+- **{...}:** The arguments to be passed to the methods.
+    - **tolerance:** Max distance for the pointer to be around a point and be detected.
+    - **offset:** Distance between labels and points.
+    - **labels:** Optional label names for the points.
 ___
 
 
