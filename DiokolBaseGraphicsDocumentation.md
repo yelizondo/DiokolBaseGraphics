@@ -29,7 +29,7 @@ plot(x,y,{...})
         - "b": for a **b**oth, point and line plot.
         - "o": for both"**o**verplotted" 
 ___
-## Axis
+## Axis function
 Description
 ### Syntax
 ``` R
@@ -41,7 +41,7 @@ axis(side,{...})
     - **at:** The points at which the tick-marks are going to be drawn.
     - **labels:** Labels to be placed in the tick points.
 ___
-## Title
+## Title function
 Description
 ### Syntax
 ``` R
@@ -65,7 +65,7 @@ box({...})
     - **which:** String, one of "plot", "figure". Default is "plot"
     - **bty:** A string which determines the type of box to be drawn. Default is "o". "n" suppresses the box.
 ___
-## Text
+## Text function
 Description
 ### Syntax
 ``` R
@@ -80,7 +80,7 @@ text(x,y,labels,{...})
     - **pos:** Indicates position for the text. It's an integer. 1 = BOTTOM, 2 = LEFT, 3 = TOP and  4 = RIGHT. The default value is 1.
     - **offset:** Indicates the offset of the label from the specified *pos* coordinate or it's default value. The default value is 1.
 ___
-## Indentify
+## Indentify function
 Reads the position of the graphics pointer when the mouse button is pressed. 
 ### Syntax
 ``` R
@@ -93,7 +93,18 @@ indentify(x,y,{...})
     - **offset:** Distance between labels and points.
     - **labels:** Optional label names for the points.
 ___
-
-
+## Resize function
+___
+## Resize Window function
+___
+## Plot Window function
+___
+## Resume function
+___
+## Extent function
+___
+## Plot New function
+___ 
+## Make Symbols function
 
 
