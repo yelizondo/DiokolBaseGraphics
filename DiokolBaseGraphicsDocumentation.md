@@ -31,18 +31,40 @@ axis(side,{...})
 ```
 ### Arguments
 - **side**: Indicates wich side of the plot is the axis going to be drawn. It's an integer. 1 = RIGHT, 2 = LEFT, 3 = TOP and  4 = RIGHT.
-- **{...}**:
+- **{...}**: The arguments to be passed to the methods.
     - **at:** The points at which the tick-marks are going to be drawn.
     - **labels:** Labels to be placed in the tick points.
 ___
 ## Title
-
+### Description
+### Syntax
+``` R
+title({...})
+```
+### Arguments
+- **{...}**: The arguments to be passed to the methods.
+    - **main:** The main title (top) 
+    - **sub:** Sub-title (bottom)
+    - **xlab:** Label for the X axis
+    - **ylab:** Label for the Y axis
 ___
 ## Box
 
 ___
 ## Text
-
+### Description
+### Syntax
+``` R
+text(x,y,labels,{...})
+```
+### Arguments
+- **x,y:** Coordinates where the text labels should be written.
+- **labels:** Text to be written    
+- **{...}:** The arguments to be passed to the methods.
+    - **col:** The color to be used.
+    - **cex:** **ESTA VALIDADO COMO PARAMETRO, MAS NO TIENE NINGUNA FUNCION**
+    - **pos:** Indicates position for the text. It's an integer. 1 = BOTTOM, 2 = LEFT, 3 = TOP and  4 = RIGHT. The default value is 1.
+    - **offset:** Indicates the offset of the label from the specified *pos* coordinate or it's default value. The default value is 1.
 ___
 ## Indetify
 
