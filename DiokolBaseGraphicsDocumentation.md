@@ -81,11 +81,11 @@ text(x,y,labels,{...})
     - **pos:** Indicates position for the text. It's an integer. 1 = BOTTOM, 2 = LEFT, 3 = TOP and  4 = RIGHT. The default value is 1.
     - **offset:** Indicates the offset of the label from the specified *pos* coordinate or it's default value. The default value is 1.
 ___
-## Indetify
+## Indentify
 Reads the position of the graphics pointer when the mouse button is pressed. 
 ### Syntax
 ``` R
-indetify(x,y,{...})
+indentify(x,y,{...})
 ```
 ### Arguments
 - **x,y:** Corrdinates in the plot.
