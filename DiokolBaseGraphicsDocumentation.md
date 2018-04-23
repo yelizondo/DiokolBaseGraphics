@@ -46,7 +46,7 @@ plot(x,y,{...})
 ___
 
 ## Axis function
-Description
+Function to add an axis to the current plot.
 ### Syntax
 ``` R
 axis(side,{...})
@@ -57,8 +57,9 @@ axis(side,{...})
     - **at:** The points at which the tick-marks are going to be drawn.
     - **labels:** Labels to be placed in the tick points.
 ___
+
 ## Title function
-Description
+This function can be used to add labels to a plot.
 ### Syntax
 ``` R
 title({...})
@@ -70,7 +71,8 @@ title({...})
     - **xlab:** Label for the X axis
     - **ylab:** Label for the Y axis
 ___
-## Box
+
+## Box function
 This function draws a box around the current plot.
 ### Syntax
 ``` R
@@ -81,8 +83,9 @@ box({...})
     - **which:** String, one of "plot", "figure". Default is "plot"
     - **bty:** A string which determines the type of box to be drawn. Default is "o". "n" suppresses the box.
 ___
+
 ## Text function
-Description
+Draws the strings given in a *lua table* at the coordinates given by *x* and *y*.
 ### Syntax
 ``` R
 text(x,y,labels,{...})
@@ -96,8 +99,9 @@ text(x,y,labels,{...})
     - **pos:** Indicates position for the text. It's an integer. 1 = BOTTOM, 2 = LEFT, 3 = TOP and  4 = RIGHT. The default value is 1.
     - **offset:** Indicates the offset of the label from the specified *pos* coordinate or it's default value. The default value is 1.
 ___
+
 ## Indentify function
-Reads the position of the graphics pointer when the mouse button is pressed. 
+Reads the position of the graphic's pointer when the mouse button is pressed. 
 ### Syntax
 ``` R
 indentify(x,y,{...})
@@ -109,28 +113,34 @@ indentify(x,y,{...})
     - **offset:** Distance between labels and points.
     - **labels:** Optional label names for the points.
 ___
+
 ## Resize function
 ### Syntax
 ``` R
 resize()
 ```
 ___
+
 ## Resize Window function
 Resizes the window.
 ### Syntax
 ``` R
 resize()
 ```
-
 ___
+
 ## Plot Window function
 ___
+
 ## Resume function
 ___
+
 ## Extent function
 ___
+
 ## Plot New function
 ___ 
+
 ## Make Symbols function
 
 
