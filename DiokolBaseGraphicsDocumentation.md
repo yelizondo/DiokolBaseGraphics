@@ -2,7 +2,7 @@
 ___
 
 ## New function
-Function used to create an instance of the DklBaseGraphics class.
+Function used to create an instance of the DklBaseGraphics class. Most use the lua *require* utility to include the DiokolBaseGraphics library before creating an instance.
 ### Syntax
 ``` R
 DklBaseGraphics:new(w,h)
