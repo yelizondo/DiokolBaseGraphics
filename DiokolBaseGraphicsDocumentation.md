@@ -1,5 +1,6 @@
 # Diokol Data Visualization Library
 ___
+
 ## New function
 Function used to create an instance of the DklBaseGraphics class.
 ### Syntax
@@ -9,17 +10,21 @@ DklBaseGraphics:new(w,h)
 ### Arguments
 - **w**: Width of the drawing area.
 - **h**: Height of the drawing area.
+
 ___
 ## Par function
-Description
+Used to set or query graphical parameters. 
 ### Syntax
 ``` R
 par({...})
 ```
 ### Arguments
+Arguments must be in *tag = value* form.
+- **{...}**: The arguments to be passed to the methods.
 ___
+
 ## Plot function
-Description
+Function used to plot in DklBaseGraphics.
 ### Syntax
 ``` R
 plot(x,y,{...})
@@ -39,6 +44,7 @@ plot(x,y,{...})
         - "b": for a **b**oth, point and line plot.
         - "o": for both"**o**verplotted" 
 ___
+
 ## Axis function
 Description
 ### Syntax
