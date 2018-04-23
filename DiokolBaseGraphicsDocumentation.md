@@ -1,5 +1,15 @@
 # Diokol Data Visualization Library
 ___
+## New function
+Function used to create an instance of the DklBaseGraphics class.
+### Syntax
+``` R
+DklBaseGraphics:new(w,h)
+```
+### Arguments
+- **w**: Width of the drawing area.
+- **h**: Height of the drawing area.
+___
 ## Par function
 Description
 ### Syntax
@@ -94,8 +104,18 @@ indentify(x,y,{...})
     - **labels:** Optional label names for the points.
 ___
 ## Resize function
+### Syntax
+``` R
+resize()
+```
 ___
 ## Resize Window function
+Resizes the window.
+### Syntax
+``` R
+resize()
+```
+
 ___
 ## Plot Window function
 ___
