@@ -19,7 +19,7 @@ Used to set or query graphical parameters.
 par({...})
 ```
 ### Arguments
-Arguments must be in *tag = value* form.
+Arguments must be in **tag = value** form.
 - **{...}**: The arguments to be passed to the methods.
 ___
 
